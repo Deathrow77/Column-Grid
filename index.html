@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Column Grid</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .grid {
+        background:silver;
+        -webkit-column-count:1;
+        -webkit-column-gap:10px;
+        -webkit-column-fill:auto;
+        -moz-column-count:1;
+        -moz-column-gap:10px;
+        -moz-column-fill:auto;
+        column-count:1;
+        column-gap:15px;
+        column-fill:auto;
+    }
+
+    .grid-item {
+        display:inline-block;
+        background:#F8F8F8;
+        margin:0 0 10px;
+        padding:15px;
+        padding-bottom:5px;
+        -webkit-column-break-inside:avoid;
+        -moz-column-break-inside:avoid;
+        column-break-inside:avoid;
+    }
+
+    hr {
+        display:block;
+        height:1px;
+        border:0;
+        border-top:1px solid #ccc;
+        margin:.5em 10px;
+        padding:0;
+    }
+
+    img {
+        width:100%
+    }
+
+    p {
+        margin:10px;
+        font-size:.8em;
+        font-family:arial;
+    line-height:1.5em;
+    }
+
+    @media (min-width: 450px) {
+    .grid {
+        -webkit-column-count:2;
+        -moz-column-count:2;
+        column-count:2; 
+    }
+    }
+
+    @media (min-width: 650px) {
+    .grid {
+        -webkit-column-count:3;
+        -moz-column-count:3;
+        column-count:3; 
+    }
+    }
+
+    @media (min-width: 960px) {
+    .grid {
+        -webkit-column-count:4;
+        -moz-column-count:4;
+        column-count:4; 
+    }
+    }
+</style>
+</head>
+<body>
+    <div class="grid">
+        <div class="grid-item">
+            <img src="./assets/1.jpg">
+
+            <hr>
+
+            <p>
+      In quis quam feugiat, mollis eros quis, fringilla eros. Duis suscipit a mi sit amet sagittis. Curabitur eu mollis risus. Aliquam lacus eros, faucibus sed imperdiet eget, scelerisque id velit. Vivamus tellus urna, venenatis sit amet erat a, pulvinar tempus urna. Nunc finibus ante eget nunc eleifend mollis.
+                
+            </p>
+        </div>
+
+        <div class="grid-item">
+            <img src="./assets/2.jpg">
+
+            <hr>
+
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt tellus a sem scelerisque vestibulum in eu lacus. Vivamus vitae eros augue.
+            </p>
+        </div>
+
+        <div class="grid-item">
+            <img src="./assets/3.jpg">
+
+            <hr>
+
+            <p>
+                 Aenean est eros, auctor ac elementum id, laoreet eu sapien.
+            </p>
+        </div>
+
+        <div class="grid-item">
+            <img src="./assets/4.jpg">
+
+            <hr>
+
+            <p>
+                 Donec elementum lacus at neque imperdiet blandit. Morbi feugiat odio id nulla bibendum sodales. Integer eros elit, volutpat id aliquet et, commodo ut odio.
+            </p>
+        </div>
+
+        <div class="grid-item">
+            <img src="./assets/5.jpg">
+
+            <hr>
+
+            <p>
+                Proin ut nulla ut augue rhoncus finibus ac non quam. Fusce et lacinia urna. Vivamus pellentesque ipsum quis leo sodales finibus. 
+            </p>
+        </div>
+
+        <div class="grid-item">
+            <img src="./assets/3.jpg">
+
+            <hr>
+
+            <p>
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus sed arcu dui. Ut ac urna turpis. Praesent risus dui, eleifend tempus sagittis ut, luctus sed ligula. Fusce in enim felis. Sed nisl purus, porta vitae dolor in, tincidunt laoreet felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec rhoncus risus fringilla arcu pulvinar, eu porta turpis porta. Suspendisse eget euismod urna. 
+            </p>
+        </div>
+
+        <div class="grid-item">
+            <img src="./assets/8.jpg">
+
+            <hr>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt tellus a sem scelerisque vestibulum in eu lacus. Vivamus vitae eros augue.
+            </p>
+        </div>
+
+  <div class="grid-item">
+            <img src="./assets/7.jpg">
+
+            <hr>
+
+            <p>
+                 Donec elementum lacus at neque imperdiet blandit. Morbi feugiat odio id nulla bibendum sodales. Integer eros elit, volutpat id aliquet et, commodo ut odio.
+            </p>
+        </div>
+
+        <div class="grid-item">
+            <img src="./assets/8.jpg">
+
+            <hr>
+
+            <p>
+                Proin ut nulla ut augue rhoncus finibus ac non quam. Fusce et lacinia urna. Vivamus pellentesque ipsum quis leo sodales finibus. 
+            </p>
+        </div>
+
+        <div class="grid-item">
+            <img src="./assets/1.jpg">
+
+            <hr>
+
+            <p>
+                Proin varius ante dolor, quis maximus nisl dapibus at. Integer dapibus mi accumsan, fringilla massa sit amet, fringilla augue. Nullam tempus lobortis malesuada. Aenean placerat varius condimentum. Nulla faucibus pulvinar lacus, ut auctor metus pulvinar et. Etiam ultrices semper nisl quis tincidunt. 
+            </p>
+        </div>
+    </div>
+</body>
+</html>
